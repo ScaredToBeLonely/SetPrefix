@@ -1,0 +1,14 @@
+name: ScaredPrefix
+main: tokyo.nikokingames.scaredprefix.Main
+version: 1.0
+commands:
+   setprefix:
+      description: Set prefix to player.
+      usage: /setprefix [player] [prefix]
+      permission: scared.prefix
+      permission-message: You don't have permission to execute this command.
+   unprefix:
+      description: Delete prefix the player.
+      usage: /unprefix [player]
+      permission: scared.prefix
+      permission-message: You don't have permission to execute this command.
